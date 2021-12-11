@@ -1,0 +1,29 @@
+{
+  "name": "codal",
+  "version": "1.0.0",
+  "description": "Extract data from codal.ir HTML pages for financial statements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MuhammedAlavi/codal.git"
+  },
+  "keywords": [
+    "codal.ir",
+    "HTML",
+    "parse",
+    "financial",
+    "statements"
+  ],
+  "author": "Muhammed.Alavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammedAlavi/codal/issues"
+  },
+  "homepage": "https://github.com/MuhammedAlavi/codal#readme",
+  "dependencies": {
+    "node-html-parser": "^5.1.0"
+  }
+}
