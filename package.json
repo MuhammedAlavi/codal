@@ -4,7 +4,8 @@
   "description": "Extract data from codal.ir HTML pages for financial statements.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/MuhammedAlavi/codal#readme",
   "dependencies": {
+    "mysql": "^2.18.1",
     "node-html-parser": "^5.1.0"
   }
 }
